@@ -61,12 +61,12 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87C11815D3E4ED56788A8D25 /* Pods_FJPreImageView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FJPreImageView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95E1FE2F5273E3050AFEF836 /* Pods-FJPreImageView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FJPreImageView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FJPreImageView_Tests/Pods-FJPreImageView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9CD7252926D8E048682DCADF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9CD7252926D8E048682DCADF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C1A0299EA120327EC6089C43 /* Pods-FJPreImageView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FJPreImageView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FJPreImageView_Tests/Pods-FJPreImageView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C78FD7CC74D93913DAACF273 /* Pods_FJPreImageView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FJPreImageView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE6FA0CC09F5C4B05A202B30 /* Pods-FJPreImageView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FJPreImageView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FJPreImageView_Example/Pods-FJPreImageView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EA490D6ECD1905B02F56A691 /* FJPreImageView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FJPreImageView.podspec; path = ../FJPreImageView.podspec; sourceTree = "<group>"; };
-		FAC25170D23C9ED7D1A5CB96 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EA490D6ECD1905B02F56A691 /* FJPreImageView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FJPreImageView.podspec; path = ../FJPreImageView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FAC25170D23C9ED7D1A5CB96 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -326,12 +326,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-FJPreImageView_Example/Pods-FJPreImageView_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FJPreImageView/FJPreImageView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FJPreImageView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

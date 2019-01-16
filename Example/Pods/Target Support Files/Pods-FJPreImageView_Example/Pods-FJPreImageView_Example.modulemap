@@ -1,0 +1,6 @@
+framework module Pods_FJPreImageView_Example {
+  umbrella header "Pods-FJPreImageView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

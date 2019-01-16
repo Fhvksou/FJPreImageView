@@ -1,0 +1,27 @@
+{
+  "name": "FJPreImageView",
+  "version": "0.1.0",
+  "summary": "A short description of FJPreImageView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Fhvksou/FJPreImageView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Fhvksou": "chaoji.ni@weimob.com"
+  },
+  "source": {
+    "git": "https://github.com/Fhvksou/FJPreImageView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FJPreImageView/Classes/**/*",
+  "dependencies": {
+    "SDWebImage": [
+
+    ]
+  }
+}

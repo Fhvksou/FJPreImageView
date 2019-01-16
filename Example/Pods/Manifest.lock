@@ -1,0 +1,25 @@
+PODS:
+  - FJPreImageView (0.1.0):
+    - SDWebImage
+  - SDWebImage (4.4.3):
+    - SDWebImage/Core (= 4.4.3)
+  - SDWebImage/Core (4.4.3)
+
+DEPENDENCIES:
+  - FJPreImageView (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  FJPreImageView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FJPreImageView: e11c3eaf9326d342b0be87e26bf239e7d34e2fce
+  SDWebImage: c5594f1a19c48d526d321e548902b56b479cd508
+
+PODFILE CHECKSUM: c9b9806b053447e6b1260716d7fa0c3b8eca2781
+
+COCOAPODS: 1.5.3
