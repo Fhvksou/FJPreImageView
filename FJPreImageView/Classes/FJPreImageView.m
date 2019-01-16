@@ -110,7 +110,7 @@
 // 将要消失的cell还原它的scale
 - (void)collectionView:(UICollectionView *)collectionView didEndDisplayingCell:(UICollectionViewCell *)cell forItemAtIndexPath:(NSIndexPath *)indexPath {
     FJImageCell * LLCell = (FJImageCell *)cell;
-    for (UIView * vc in LLCell.subviews) {
+    for (UIView * vc in LLCell.contentView.subviews) {
         if ([vc isKindOfClass:[FJImageView class]]) {
             FJImageView * imageVc = (FJImageView *)vc;
             [imageVc resetScale];

@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Fhvksou;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 82S6KF6M73;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -499,6 +502,7 @@
 			baseConfigurationReference = DE6FA0CC09F5C4B05A202B30 /* Pods-FJPreImageView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 82S6KF6M73;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FJPreImageView/FJPreImageView-Prefix.pch";
 				INFOPLIST_FILE = "FJPreImageView/FJPreImageView-Info.plist";
@@ -514,6 +518,7 @@
 			baseConfigurationReference = 7B4FB624B2B96926A77DCDFA /* Pods-FJPreImageView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 82S6KF6M73;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FJPreImageView/FJPreImageView-Prefix.pch";
 				INFOPLIST_FILE = "FJPreImageView/FJPreImageView-Info.plist";

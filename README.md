@@ -22,7 +22,7 @@ pod 'FJPreImageView'
 
 ## Author
 
-Fhvksou, chaoji.ni@weimob.com
+Fhvksou, 497001857@qq.com
 
 ## License
 
