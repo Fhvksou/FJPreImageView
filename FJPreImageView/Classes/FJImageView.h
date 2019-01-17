@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-typedef void(^DismissImageViewBlock)(void);
+typedef void(^TapBlock)(void);
 
 typedef void(^LongTapBlock)(UIImage * image);
 
@@ -17,7 +17,7 @@ typedef void(^LongTapBlock)(UIImage * image);
 
 @property (nonatomic ,assign) CGFloat maxZoomScale;
 
-@property (nonatomic ,copy) DismissImageViewBlock dismissImageViewBlock;
+@property (nonatomic ,copy) TapBlock tapBlock;
 
 @property (nonatomic ,copy) LongTapBlock longTapBlock;
 

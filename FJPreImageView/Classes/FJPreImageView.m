@@ -138,7 +138,8 @@
     }
     
     __weak FJPreImageView * weakSelf = self;
-    [cell.imageView setDismissImageViewBlock:^{
+    
+    [cell.imageView setTapBlock:^{
         [weakSelf dismissAnimation];
     }];
     

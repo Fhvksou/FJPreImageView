@@ -78,9 +78,9 @@
 }
 
 - (void)dimissImageView{
-    if (self.dismissImageViewBlock) {
+    if (self.tapBlock) {
         [self.scrVc setZoomScale:1 animated:YES];
-        self.dismissImageViewBlock();
+        self.tapBlock();
     }
 }
 
