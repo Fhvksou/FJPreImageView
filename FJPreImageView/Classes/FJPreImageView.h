@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-typedef void(^LongTapPressBlock)(void);
+typedef void(^LongTapPressBlock)(UIImage * image);
 
 @interface FJPreImageView : UIView
 

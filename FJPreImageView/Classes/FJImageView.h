@@ -11,7 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 typedef void(^DismissImageViewBlock)(void);
 
-typedef void(^LongTapBlock)(void);
+typedef void(^LongTapBlock)(UIImage * image);
 
 @interface FJImageView : UIView
 

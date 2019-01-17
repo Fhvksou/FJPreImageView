@@ -42,8 +42,8 @@
     
     FJPreImageView * imageVc = [[FJPreImageView alloc]init];
     
-    [imageVc setLongTapPressBlock:^{
-        NSLog(@"长按图片的回调");
+    [imageVc setLongTapPressBlock:^(UIImage * _Nonnull image) {
+        NSLog(@"长按图片回调");
     }];
     
     [imageVc showPreView:[UIApplication sharedApplication].keyWindow urls:arr index:0];

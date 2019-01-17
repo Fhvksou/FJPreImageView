@@ -142,9 +142,9 @@
         [weakSelf dismissAnimation];
     }];
     
-    [cell.imageView setLongTapBlock:^{
+    [cell.imageView setLongTapBlock:^(UIImage * _Nonnull image) {
         if (weakSelf.longTapPressBlock) {
-            weakSelf.longTapPressBlock();
+            weakSelf.longTapPressBlock(image);
         }
     }];
     

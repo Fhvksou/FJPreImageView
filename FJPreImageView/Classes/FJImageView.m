@@ -87,7 +87,7 @@
 - (void)LongTapAction:(UILongPressGestureRecognizer *)longPress{
     if (longPress.state != UIGestureRecognizerStateBegan) return;
     if (self.longTapBlock) {
-        self.longTapBlock();
+        self.longTapBlock(self.imageVc.image);
     }
 }
 
