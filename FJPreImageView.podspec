@@ -8,11 +8,11 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FJPreImageView'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = '一个简单的预览图片控件'
 
   s.description      = <<-DESC
-TODO: 预览图片，支持网络图片和本地图片的预览，定点放大和缩小，手动放大和缩小,长按手势的回调
+  TODO: 预览图片，支持网络图片和本地图片的预览，定点放大和缩小，手动放大和缩小,长按手势的回调
                        DESC
 
   s.homepage         = 'https://github.com/Fhvksou/FJPreImageView'
@@ -23,6 +23,7 @@ TODO: 预览图片，支持网络图片和本地图片的预览，定点放大�
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'FJPreImageView/Classes/**/*'
+  
   s.dependency 'SDWebImage'
   
 end
